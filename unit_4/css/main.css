@@ -80,7 +80,7 @@ a {
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: all 0.5s ease;
-  	-webkit-transition: all 0.5s ease;
+	/* -webkit-transition: all 0.5s ease; */
 }
 a:hover {
 	color: slategray;
@@ -127,16 +127,26 @@ p.copyright {
 	font-weight: 300;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	position: relative;
+	color: #fff;
+	width: 50%;
+	float: left;
+}
+.pages p {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .page1 {
 	/*background: linear-gradient(to bottom right,rgba(50,0,50,.2),rgba(25,0,25,.1)), url("../images/muted-jewelry.jpg");*/
 	background: url("../images/muted-jewelry.jpg");
 	background-size: cover;
-	background-position: 50%;
+	background-position: center;
 	color: #fff;
 	height: 100%;
 	float: left;
-	padding-top: 140px;
+	/* padding-top: 140px; */
 	width: 50%;
 }
 .page1:hover {
@@ -145,34 +155,14 @@ p.copyright {
 	background-position: 50%;*/
 	color: #fff;
 }
-.page2 {
-/*	background: linear-gradient(to bottom right,rgba(50,0,50,.2),rgba(25,0,25,.1)), url("../images/bench-acct-painter.jpeg");*/
-	background: url("../images/bench-acct-painter.jpeg");
-	background-size: cover;
-	background-position: 50%;
-	color: #fff;
-	float: left;
-	height: 50%;
-	padding-top: 60px;
-	width: 50%;
-}
+.page2 {/*	background: linear-gradient(to bottom right,rgba(50,0,50,.2),rgba(25,0,25,.1)), url("../images/bench-acct-painter.jpeg");*/background: url("../images/bench-acct-painter.jpeg");background-size: cover;background-position: 50%;color: #fff;/* float: left; */height: 50%;/* padding-top: 60px; *//* width: 50%; */}
 .page2:hover {
 /*	background: url("../images/bench-acct-painter.jpeg");
 	background-size: cover;
 	background-position: 50%;*/
 	color: #fff;
 }
-.page3 {
-/*	background: linear-gradient(to bottom right,rgba(50,0,50,.2),rgba(25,0,25,.1)), url("../images/pastel-swatches.jpeg");*/
-	background: url("../images/pastel-swatches.jpeg");
-	background-size: cover;
-	background-position: 50%;
-	color: #fff;
-	float: right;
-	height: 50%;
-	padding-top: 60px;
-	width: 50%;
-}
+.page3 {/*	background: linear-gradient(to bottom right,rgba(50,0,50,.2),rgba(25,0,25,.1)), url("../images/pastel-swatches.jpeg");*/background: url("../images/pastel-swatches.jpeg");background-size: cover;background-position: 50%;color: #fff;float: right;height: 50%;/* padding-top: 60px; */width: 50%;}
 .page3:hover {
 /*	background: url("../images/pastel-swatches.jpeg");
 	background-size: cover;
