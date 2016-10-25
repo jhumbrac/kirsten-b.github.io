@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,600,600i');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,600,600i');
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body {
+	background-color: rgb(240,240,240);
+	color: rgb(100,100,100);
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 100%;
+	font-weight: 300;
+	line-height: 1.5;
+	max-width: 1200px;
+	margin: 1em auto;
+}
+section {
+	background-color: white;
+	padding: 2em;
+	margin: 1em 0;
+}
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(50,75,90);
+	font-size: 2.5em;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 1.25em;
+	font-weight: 300;
+}
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(50,75,90);
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+p {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 300;
+}
+nav {
+	text-align: center;
+	width: 100%;
+}
+nav a {
+	background-color: #fff;
+	color: rgb(50,75,90);
+	display: inline-block;
+	font-size: 1em;
+	font-weight: 300;
+	padding: 1em 0;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+  	-webkit-transition: all 0.5s ease;
+	width: 25%;
+}
+nav a:hover {
+	background-color: rgb(50,75,90);
+	color: #fff;
+}
+ul {
+	list-style-type: none;
+}
+li {
+}
+a {
+	color: rgb(180,155,180);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: .75em;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+  	-webkit-transition: all 0.5s ease;
+}
+a:hover {
+	color: slategray;
+}
+footer {
+	margin: 2em;
+}
+p.copyright {
+	float: right;
+}
+.logo {
+	margin: 1em auto;
+	padding: 2em;
+	text-align: center;
+	width: 50%;
+}
+.hero {
+	background: linear-gradient(to bottom right,rgba(50,0,50,.2),rgba(25,0,25,.1)), url("../images/sunny-au8ust.jpeg"), no-repeat, 50%;
+	background: url("../images/sunny-au8ust.jpeg");
+	background-size: cover;
+	background-position: 50%;
+	height: 600px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.services {
+	width: 100%;
+	overflow: hidden;
+}
+.service {
+	float: left;
+	vertical-align: top;
+	width: 25%;
+}
+.pages {
+	height: 300px;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+}
+.pages a {
+	font-size: 1.5em;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.page1 {
+	/*background: linear-gradient(to bottom right,rgba(50,0,50,.2),rgba(25,0,25,.1)), url("../images/muted-jewelry.jpg");*/
+	background: url("../images/muted-jewelry.jpg");
+	background-size: cover;
+	background-position: 50%;
+	color: #fff;
+	height: 100%;
+	float: left;
+	padding-top: 140px;
+	width: 50%;
+}
+.page1:hover {
+/*	background: url("../images/muted-jewelry.jpg");
+	background-size: cover;
+	background-position: 50%;*/
+	color: #fff;
+}
+.page2 {
+/*	background: linear-gradient(to bottom right,rgba(50,0,50,.2),rgba(25,0,25,.1)), url("../images/bench-acct-painter.jpeg");*/
+	background: url("../images/bench-acct-painter.jpeg");
+	background-size: cover;
+	background-position: 50%;
+	color: #fff;
+	float: left;
+	height: 50%;
+	padding-top: 60px;
+	width: 50%;
+}
+.page2:hover {
+/*	background: url("../images/bench-acct-painter.jpeg");
+	background-size: cover;
+	background-position: 50%;*/
+	color: #fff;
+}
+.page3 {
+/*	background: linear-gradient(to bottom right,rgba(50,0,50,.2),rgba(25,0,25,.1)), url("../images/pastel-swatches.jpeg");*/
+	background: url("../images/pastel-swatches.jpeg");
+	background-size: cover;
+	background-position: 50%;
+	color: #fff;
+	float: right;
+	height: 50%;
+	padding-top: 60px;
+	width: 50%;
+}
+.page3:hover {
+/*	background: url("../images/pastel-swatches.jpeg");
+	background-size: cover;
+	background-position: 50%;*/
+	color: #fff;
+}
+.story {
+	float: left;
+	vertical-align: top;
+	width: 75%;
+}
+.portrait {
+	padding-left: 1em;
+	width: 25%;
+}
